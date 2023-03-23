@@ -1,5 +1,6 @@
-# arbitrum-clamer
-Скрипт для получения токена сети Arbitrum.
+# arbitrum-clamer testnet
+Тестнет версия скрипта для получения токена сети Arbitrum.
+Получает токен $CLAIM в Arbitrum goerli.
 
 ## Перед запуском:
 1. Скачиваем скрипт:
