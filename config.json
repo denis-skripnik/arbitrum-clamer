@@ -1,5 +1,5 @@
 {
-    "plus_gas_limit": 0,
+    "plus_gas_limit": 100000,
     "apikey": "",
     "rpc": "https://endpoints.omniatech.io/v1/arbitrum/goerli/public",
     "claim_contract": "0x1b77cb50c6559e2e581cb2421d4a6d0239ce0e53",
