@@ -14,7 +14,6 @@ git clone https://github.com/denis-skripnik/arbitrum-clame
 Адреса нужны, если вы хотите отправить токены на биржу.
 6. Возвращаемся в основную папку скрипта, и открываем config.json
  - Здесь меняем plus_gas_limit, если хотим установить лимит газа выше текущего на n единиц.
- - Вводим apikey от etherscan, если хотите мониторить наступление блока раз в секунду, а не раз в 5 секунд ([документация по получению api ключа](https://docs.etherscan.io/getting-started/viewing-api-usage-statistics)).
  - Меняем rpc на свой. Можете взять на [Omnia](https://app.omniatech.io/dashboard), [Lava](https://gateway.lavanet.xyz/projects) или [Alchemy](https://dashboard.alchemy.com).
  Остальные пункты ни в коем случае не трогайте. Скрипт перестанет работать.
 Важно также, чтоб вы следили за кавычками: значения за исключением plus_gas_limit должны быть между ними.
