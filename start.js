@@ -90,14 +90,14 @@ async function main() {
           }
         promises.push(actions(pks[l], address, l));
       }
-      let res = await Promise.all(promises);
-      if (res.includes(1) || res.includes(0)) {
-        fs.writeFileSync('data/working.json', JSON.stringify(working));
-        await main();
-      } else {
-        working = {};
-        fs.writeFileSync('data/working.json', JSON.stringify(working));
-        exit;
-      }
+  let res = await Promise.all(promises);
+  if (res.includes(1) || res.includes(0)) {
+    fs.writeFileSync('data/working.json', JSON.stringify(working));
+    await main()
+  } else {
+    working = {};
+    fs.writeFileSync('data/working.json', JSON.stringify(working));
+    exit;
   }
+    }
 main();

@@ -1,6 +1,6 @@
 {
-    "plus_gas_limit": 200000,
-    "rpc": "https://endpoints.omniatech.io/v1/arbitrum/one/public",
+    "plus_gas_limit": 0,
+    "rpc": "https://arb-mainnet.g.alchemy.com/v2/inapO5PlMi6Yf_lkpm_DdBZ9gVQjq5BN",
     "claim_contract": "0x67a24ce4321ab3af51c2d0a4801c3e111d88c9d9",
     "token_contract": "0x912CE59144191C1204E64559FE8253a0e49E6548"
 }
