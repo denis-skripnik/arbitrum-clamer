@@ -91,7 +91,7 @@ async function main() {
         promises.push(actions(pks[l], address, l));
       }
   let res = await Promise.all(promises);
-  if (res.includes(1) || res.includes(0)) {
+  if (res.includes(0) || res.includes(1) && addresses.length > 0) {
     fs.writeFileSync('data/working.json', JSON.stringify(working));
     await main()
   } else {
